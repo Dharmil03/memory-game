@@ -1,0 +1,35 @@
+
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #282c34;
+}
+
+.memory-game {
+  display: grid;
+  grid-template-columns: repeat(6, 100px);
+  gap: 10px;
+}
+
+.card {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card:hover {
+  background-color: #ddd;
+}
+
